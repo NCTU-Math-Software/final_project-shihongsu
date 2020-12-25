@@ -1,7 +1,7 @@
 # Problem : Square number
 ***
 ## Qusetion : 
-Find a positive number such that the square of it is 1_2_3_4_5_6_7_8_9_0, where all the _ are numbers from 0 ~ 9.
+### Find a positive number such that the square of it is 1_2_3_4_5_6_7_8_9_0, where all the _ are numbers from 0 ~ 9.
 ***
 * #### 1) Program need to be run : __1__
   #### 2) Input : __None__
