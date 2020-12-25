@@ -8,7 +8,11 @@
 
 ### Finding
 * The topic's number is originally a 19-digit number, but in most of my program, I consider it a 17-digit number, and the reason is because the last digit is 0 by the topic. Since it is _a square number, the power of every prime factor must be even_, therefore the last _ will be 0, and thus I set it to a 17-digit number for easier computation.
-* To check the number is still an integer after square root, I used _floor(sqrt(x)) == sqrt(x)_ for my conformation.
+* To check the number is still an integer after square root, I used 
+
+          floor(sqrt(x)) == sqrt(x)
+
+  for my conformation.
 * After discarding the last 2 digits, the number become a 17-digit number with _a 9 as it's last digit_. And since the last digit is 9, we know the the last digit of the square root of it must be 3 or 7, so I use _mod(sqrt(x), 10) == 3 || mod(sqrt(x),10) == 7_ to check the answer actually meets the topic.
 ### Checking
 * Because the number itself is too large, it's hard to find a way to check whether my answer is correct. Eventually I separate the answer I found into each and every digit (stored as an array _(set as y in my program)_ ), and times them to the answer itself (stored in another array _(set as z in my program)_ ), then sum the numbers digit by digit. The method can be deal with this case only and has to deal with special cases a couple of times, but the final answer will be output to check the answer does match the topic's conditions.
