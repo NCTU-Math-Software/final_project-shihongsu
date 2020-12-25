@@ -13,4 +13,4 @@
 * The answer is a 10-digit number, which is reasonable since the square of a 10-digit number could be a 19-digit one.
 
 ### The square of the answer found : 1 9 2 9 3 7 4 2 5 4 6 2 7 4 8 8 9 0 0
-* The square of the answer fits the topic's conditions.
+* Which fits the topic's conditions.
