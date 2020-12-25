@@ -8,6 +8,7 @@
 
 ### Finding
 * The topic's number is originally a 19-digit number, but in most of my program, I consider it a 17-digit number, and the reason is because the last digit is 0 by the topic. Since it is _a square number, the power of every prime factor must be even_, therefore the last _ will be 0, and thus I set it to a 17-digit number for easier computation.
+* To find the answer, I construct a 8-floor _for_ loop, each representing one _ , and each _for_ loop starts from 0 and end with 9.
 * To check the number is still an integer after square root, I used 
 
           floor(sqrt(x)) == sqrt(x)
