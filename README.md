@@ -2,9 +2,9 @@
 
 ## Topic : Find a positive number such that the square of it is 1_2_3_4_5_6_7_8_9_0, where the _ are numbers from 0 ~ 9.
 
-#### 1. Program need to be downloaded and run : __square_number.m__
-#### 2. Input : __None__.
-#### 3. Output :  __the requested number__, as well as __the square of the number__.
+ 1. Program need to be downloaded and run : __square_number.m__
+ 2. Input : __None__.
+ 3. Output :  __the requested number__, as well as __the square of the number__.
 
 ### Final answer : 1 3 8 9 0 1 9 1 7 0
 * The answer is a 10-digit number, which is reasonable since the square of a 10-digit number could be a 19-digit one.
