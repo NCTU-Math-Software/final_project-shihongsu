@@ -13,7 +13,10 @@
           floor(sqrt(x)) == sqrt(x)
 
   for my conformation.
-* After discarding the last 2 digits, the number become a 17-digit number with _a 9 as it's last digit_. And since the last digit is 9, we know the the last digit of the square root of it must be 3 or 7, so I use _mod(sqrt(x), 10) == 3 || mod(sqrt(x),10) == 7_ to check the answer actually meets the topic.
+* After discarding the last 2 digits, the number become a 17-digit number with _a 9 as it's last digit_. And since the last digit is 9, we know the the last digit of the square root of it must be 3 or 7, so I used 
+
+          mod(sqrt(x), 10) == 3 || mod(sqrt(x),10) == 7
+  to check the answer actually meets the topic.
 ### Checking
 * Because the number itself is too large, it's hard to find a way to check whether my answer is correct. Eventually I separate the answer I found into each and every digit (stored as an array _(set as y in my program)_ ), and times them to the answer itself (stored in another array _(set as z in my program)_ ), then sum the numbers digit by digit. The method can be deal with this case only and has to deal with special cases a couple of times, but the final answer will be output to check the answer does match the topic's conditions.
 * The answer indeed exists since I did found an answer and the square of it does meet the topic's request.
