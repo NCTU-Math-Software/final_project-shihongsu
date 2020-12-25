@@ -1,8 +1,8 @@
 # Problem : Square number
-***
+
 ## Topic :
 ### Find a positive number such that the square of it is 1_2_3_4_5_6_7_8_9_0, where the _ are numbers from 0 ~ 9.
-***
+
 1. Program need to be run : __square_number.m__
 2. Input : __None__
 3. Output :  __the requested number (1  3  8  9  0  1  9  1  7  0)__, as well as __the square of the number (1  9  2  9  3  7  4  2  5  4  6  2  7  4  8  8  9  0  0)__
